@@ -194,7 +194,7 @@ int main(int argc, char **argv) {
     fclose(log);
 
     MPI_Finalize();
-    draw_results(&state);
+    // draw_results(&state);
 	data_free(&state);
 
     return 0;
